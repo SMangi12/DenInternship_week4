@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227028234648",
+    "project_id": "denweek4",
+    "storage_bucket": "denweek4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227028234648:android:cb5f283605ddc7e9abfbed",
+        "android_client_info": {
+          "package_name": "com.example.den_week4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtgR8I6-bNbKPCPSOxeGBN0He0nsKLQL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

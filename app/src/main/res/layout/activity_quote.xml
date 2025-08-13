@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E7A8BF"
+    android:padding="20dp">
+
+    <!-- Quote Text -->
+    <TextView
+        android:id="@+id/quoteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Quote will appear here"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Panda Button -->
+    <Button
+        android:id="@+id/pandaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+
+        android:text="Do you want to see a cute panda to brighten your day!"
+        android:textSize="14sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Ad Banner -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+    <ProgressBar
+        android:id="@+id/bannerProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleSmall"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>
